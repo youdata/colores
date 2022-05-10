@@ -1,0 +1,28 @@
+body {
+  height:100vh;
+}
+ol {
+  //list-style:none;
+  cursor: default;
+}
+li:hover {
+  background-color:lightyellow;
+}
+#container {
+    position: fixed;
+    top: 10;
+    left: 320px;
+}
+
+#list {
+
+  padding-right:40px;
+  background-color:#EEE;
+  height:100vh;
+  overflow-y; scroll;
+  position: fixed;
+    width: 250px;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+}
